@@ -59,7 +59,7 @@ const App = () => {
       await setLoadedData(morePosts);
       await setLoadingMore(false);
       store.current.nextIndex += 10;
-    }, 2000);
+    }, 3000);
   };
   return (
     <div className="App" ref={ref}>
